@@ -1,0 +1,14 @@
+pescra-dashboard/node_modules
+pescra-dashboard/dist
+pescra-dashboard/dist-ssr
+pescra-dashboard/*.local
+
+*.log
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+
+# Arquivos internos e documentos confidenciais
+.agent/
+*.pdf
+pdf_pages_*.txt

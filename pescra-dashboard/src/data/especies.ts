@@ -1,0 +1,90 @@
+import type { Especie, LocalPesca, Pirangueiro } from '@/types'
+
+export const ESPECIES: Especie[] = [
+  {
+    id: 'tucunare',
+    nome_popular: 'Tucunaré',
+    nome_cientifico: 'Cichla melaniae',
+    lmax_cm: 65,
+    lm_cm: 28,
+    lopt_cm: 42,
+    linfinito_cm: 67,
+    cor: '#1d4ed8',
+    emoji: '🐟',
+  },
+  {
+    id: 'bicuda',
+    nome_popular: 'Bicuda',
+    nome_cientifico: 'Boulengerella cuvieri',
+    lmax_cm: 80,
+    lm_cm: 35,
+    lopt_cm: 52,
+    linfinito_cm: 83,
+    cor: '#8b5cf6',
+    emoji: '🐠',
+  },
+  {
+    id: 'cachorra_larga',
+    nome_popular: 'Cachorra Larga',
+    nome_cientifico: 'Hydrolycus armatus',
+    lmax_cm: 75,
+    lm_cm: 32,
+    lopt_cm: 48,
+    linfinito_cm: 78,
+    cor: '#0d9488',
+    emoji: '🐡',
+  },
+  {
+    id: 'cachorra_facao',
+    nome_popular: 'Cachorra Facão',
+    nome_cientifico: 'Hydrolycus tatauaia',
+    lmax_cm: 55,
+    lm_cm: 24,
+    lopt_cm: 36,
+    linfinito_cm: 57,
+    cor: '#f59e0b',
+    emoji: '🐟',
+  },
+  {
+    id: 'piraiba',
+    nome_popular: 'Piraíba',
+    nome_cientifico: 'Brachyplatystoma filamentosum',
+    lmax_cm: 180,
+    lm_cm: 95,
+    lopt_cm: 128,
+    linfinito_cm: 185,
+    cor: '#ef4444',
+    emoji: '🦈',
+  },
+  {
+    id: 'jau',
+    nome_popular: 'Jaú',
+    nome_cientifico: 'Zungaro jahu',
+    lmax_cm: 140,
+    lm_cm: 70,
+    lopt_cm: 98,
+    linfinito_cm: 145,
+    cor: '#ec4899',
+    emoji: '🐋',
+  },
+]
+
+// Locais reais próximos à confluência dos rios Sete de Setembro e Kuluene, TI Pequizal do Naruv'ytu, MT
+export const LOCAIS: LocalPesca[] = [
+  { id: 'confluencia', nome: 'Confluência Sete de Set./Kuluene', tipo: 'canal', lat: -11.72, lon: -53.58, raio_km: 1.5 },
+  { id: 'lago_grande', nome: 'Lago Grande', tipo: 'lago', lat: -11.68, lon: -53.62, raio_km: 0.8 },
+  { id: 'ressaca_norte', nome: 'Ressaca Norte', tipo: 'ressaca', lat: -11.65, lon: -53.55, raio_km: 0.6 },
+  { id: 'pedrais_sul', nome: 'Pedrais Sul', tipo: 'pedrais', lat: -11.78, lon: -53.60, raio_km: 0.4 },
+  { id: 'igarape_leste', nome: 'Igarapé Leste', tipo: 'igarape', lat: -11.70, lon: -53.50, raio_km: 0.5 },
+]
+
+export const PIRANGUEIROS: Pirangueiro[] = [
+  { id: 'p01', nome: 'João Kalapalo', apelido: 'Joãozinho' },
+  { id: 'p02', nome: 'Marcos Naruv\'ytu', apelido: 'Marcão' },
+  { id: 'p03', nome: 'Paulo Xingu', apelido: 'Paulinho' },
+  { id: 'p04', nome: 'Antônio Pequizal', apelido: 'Toinho' },
+  { id: 'p05', nome: 'Rafael Kuluene', apelido: 'Rafa' },
+  { id: 'p06', nome: 'Carlos Sete', apelido: 'Carlão' },
+  { id: 'p07', nome: 'Edinaldo Pesca', apelido: 'Dinha' },
+  { id: 'p08', nome: 'Manoel Igapó', apelido: 'Maneco' },
+]
